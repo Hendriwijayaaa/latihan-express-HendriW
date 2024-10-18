@@ -1,6 +1,6 @@
 let mongoose = require("mongoose");
-//let dbURI = "mongodb://localhost:27017/pawII-si5c";
-let dbURI = "mongodb+srv://paw2:si@paw2.iendmj6.mongodb.net/?retryWrites=true&w=majority&appName=paw2"
+//let dbURI = "mongodb://localhost:27017/HendriDB";
+let dbURI = "mongodb+srv://paw2:si@paw2.iendmj6.mongodb.net/?retryWrites=true&w=majority&appName=paw2/HendriDB";
 
 mongoose.connect(dbURI, {
     //useNewUrlParser: true
